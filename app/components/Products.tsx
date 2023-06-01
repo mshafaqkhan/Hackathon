@@ -10,17 +10,21 @@ export default function Products() {
                     Check What We Have
                 </h2>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3">
                 <div className='bg-red-400'>
-                    <Image src={"/Promo1.webp"} alt="website logo" width={550} height={550} />
+                    <Image src={"/Prod1.png"} alt="website logo" width={550} height={550} />
+                    <p>Brushed Raglan Sweatshirt</p>
+                    <p>$195</p>
                 </div>
-                <div className='bg-red-200'>
-                    <div>
-                        <Image src={"/Promo2.webp"} alt="website logo" width={550} height={550} />
-                    </div>
+                <div className='bg-red-400'>
+                    <Image src={"/Prod2.png"} alt="website logo" width={550} height={550} />
+                    <p>Brushed Raglan Sweatshirt</p>
+                    <p>$195</p>
                 </div>
-                <div className='bg-red-700'>
-                    <Image src={"/Promo3.webp"} alt="website logo" width={550} height={550} />
+                <div className='bg-red-400'>
+                    <Image src={"/Prod3.png"} alt="website logo" width={550} height={550} />
+                    <p>Brushed Raglan Sweatshirt</p>
+                    <p>$195</p>
                 </div>
             </div>
         </div>

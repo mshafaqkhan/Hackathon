@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
@@ -13,7 +14,7 @@ export default function Promotion() {
         </h2>
       </div>
       <div className="grid grid-cols-4 gap-4">
-        <div className="col-span-2">
+        <div style={{ height: '23rem' }} className="col-span-2">
           <div className="h-1/2 bg-[#d6d6d8] flex items-center justify-between p-10">
             <div>
               <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
@@ -31,32 +32,49 @@ export default function Promotion() {
               height={240}
             />
           </div>
-          <div>
-            <h2 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+          <div className="h-1/2 text-white bg-gray-700 flex flex-col items-center justify-center ">
+            <h2 className="font-bold scroll-m-20 pb-2 text-3xl tracking-tight transition-colors first:mt-0">
               GET 30% Off
             </h2>
             <p className="leading-7 [&:not(:first-child)]:mt-0">
               USE PROMO CODE
             </p>
+
+            <Button variant="secondary" className='bg-gray-500 font-extrabold text-white'>DINE WEEKEND SALE</Button>
+
           </div>
         </div>
-        <div className="bg-red-400">
+        <div style={{ height: '23rem' }} className="p-5 bg-amber-100">
           <div>
+            Flex Sweatshirt
+          </div>
+          <div>
+            $75.00
+          </div>
+          <div className="object-none">
             <Image
               src={"/Promo2.webp"}
               alt="website logo"
-              width={550}
-              height={550}
+              width={230}
+              height={230}
             />
           </div>
         </div>
-        <div>
-          <Image
-            src={"/Promo3.webp"}
-            alt="website logo"
-            width={550}
-            height={550}
-          />
+        <div style={{ height: '23rem' }} className="p-5 bg-stone-300">
+          <div>
+            Flex Push Button Bomber
+          </div>
+          <div>
+            $190.00
+          </div>
+          <div className="object-none">
+            <Image
+              src={"/Promo3.webp"}
+              alt="website logo"
+              width={230}
+              height={230}
+            />
+          </div>
         </div>
       </div>
     </div>
