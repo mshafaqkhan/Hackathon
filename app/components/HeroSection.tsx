@@ -14,7 +14,7 @@ export default function HeroSection() {
                 <p className="leading-7 [&:not(:first-child)]:mt-6">
                     Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.
                 </p>
-                <Button className="mt-5 w-36 h-16">
+                <Button className="mt-5 w-44 h-16">
                     <ShoppingCart className="mr-1 h-5 w-5" /> Start Shopping
                 </Button>
             </div>
